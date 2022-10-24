@@ -26,7 +26,7 @@ This is very useful for quickly cropping up a large image into multiple patches 
 
 To install this project, clone it from the project github via
 ```
-git clone URL
+git clone https://github.com/v7labs/webhook-patch-server
 ```
 
 ## Starting the server
