@@ -1,6 +1,6 @@
 # WEBHOOK PATCH SERVER
 
-This code is provided as an "as-is" project that exemplifies the usage of [V7-workflows](https://docs.v7labs.com/v2.0/docs/use-workflow-to-manage-your-projects) and more specifically [V7-webhooks.](https://docs.v7labs.com/v2.0/docs/the-webhook-stage). 
+This code is provided as an "as-is" project that exemplifies the usage of [V7-workflows](https://docs.v7labs.com/v2.0/docs/use-workflow-to-manage-your-projects) and more specifically [V7-webhooks.](https://docs.v7labs.com/v2.0/docs/the-webhook-stage). Further documentation outlining the overall workflow in more detail can be found [here](https://github.com/v7labs/webhook-patch-server).
 
 
 The project provides code to start a [FLASK-server](https://flask.palletsprojects.com/en/2.2.x/) hosting a REST web-api that allows the generation of patches from a larger image based on annotations generated on the V7 platform. The current version does **only support** `images` and not 3D-volumes, videos or other data formats.
@@ -65,6 +65,6 @@ To close the server, use `ctrl+c`.
 
 ## V7 workflow
 
-For more details about setting up the V7 workflow associated with this use-case please see the [following documentation]. Here it is described how to configurate and use the webhook to communicate with the running server.
+For more details about setting up the V7 workflow associated with this use-case please see the [following documentation](https://github.com/v7labs/webhook-patch-server). Here it is described how to configurate and use the webhook to communicate with the running server.
 
 
